@@ -4,7 +4,7 @@ import streamlit as st
 from streamlit_lottie import st_lottie
 
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
-st.set_page_config(page_title="My website", page_icon=":tada:", layout="wide")
+st.set_page_config(page_title="My website", page_icon="::satellite_antenna::", layout="wide")
 
 # Function to load Lottie animation from URL
 def load_lottieurl(url):
