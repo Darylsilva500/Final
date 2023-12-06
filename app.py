@@ -80,7 +80,7 @@ elif selected_page == "All About Huawei":
         st.write("##")
         image_column, text_column = st.columns((1, 2))
         with image_column:
-            st.image(img_verse)
+            st.image(img_intro)
         with text_column:
             st.subheader("History of Huawei")
             st.write(
@@ -93,7 +93,7 @@ elif selected_page == "All About Huawei":
 
         image_column, text_column = st.columns((1, 2))
         with image_column:
-            st.image(img_intro)
+            st.image(img_verse)
         with text_column:
             st.subheader("Products Of Huawei")
             st.write(
