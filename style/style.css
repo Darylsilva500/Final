@@ -38,3 +38,26 @@ input[type=message], input[type=email], input[type=text], textarea {
   :root {
     --primaryColor: #94ffb0;
   }
+  
+  /* Background color for the main content area */
+  body {
+    background-color: #00172B;
+  }
+  
+  /* Background color for sidebar and most interactive widgets */
+  /* Update based on the actual secondaryBackgroundColor usage in Streamlit app */
+  .sidebar-content {
+    background-color: #00172B;
+  }
+  
+  /* Color used for almost all text */
+  body {
+    color: #FFFFFF;
+  }
+  
+  /* Font family for all text in the app, except code blocks */
+  /* Update based on the actual font usage in Streamlit app */
+  body {
+    font-family: "sans serif";
+  }
+  
