@@ -41,13 +41,7 @@ with st.container():
      
 # ---- SIDEBAR MENU ----
 with st.sidebar:
-     st.markdown(
-        """
-        <div style='display: flex; justify-content: center; align-items: center; flex-direction: column;'>
-            <img src='data:image/png;base64,{}' style='border-radius: 15px; width: 150px; height: 150px;' alt='profile pic'/>
-        </div>
-        """.format(profile_user),
-        unsafe_allow_html=True
+     st.image(profile_user, use_column_width=True)
     st.subheader("Home")
     selected_page = st.radio("Go to", ["Home", "What Huawei Offers", "All About Huawei", "Get In Touch"])
 
