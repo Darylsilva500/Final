@@ -31,9 +31,14 @@ profile_user = Image.open("images/user.png")
 
 # ---- HEADER SECTION ----
 with st.container():
-    image_log = "images/log.png"  
-    st.image(image_log, width=300)
-    st.subheader("Hi, I'm :red[Daryl D. Silva] :satellite_antenna:", divider="rainbow") 
+image_log = "images/log.png"
+col1, col2 = st.beta_columns([1, 3])
+
+with col1:
+    st.image(image_log, width=100)
+
+with col2:
+    st.subheader("Hi, I'm :red[Daryl D. Silva] :satellite_antenna:", unsafe_allow_html=True)
     st.title("Huawei: Connecting the World through Innovation")
     st.write(
         "Welcome to Huawei, a global leader in technology and innovation, connecting people and societies across the world. With a commitment to building a fully connected, intelligent world, Huawei is at the forefront of transforming industries, empowering individuals, and driving positive change."
