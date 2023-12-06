@@ -13,7 +13,7 @@ profile_picture_url = "https://github.com/Darylsilva500/Final/blob/main/images/u
 profile_picture = Image.open(requests.get(profile_picture_url, stream=True).raw)
 
 # Sidebar background image
-sidebar_bg_image_url = "https://github.com/Darylsilva500/Final/blob/main/images/background1.jpg"
+sidebar_bg_image_url = "images/background1.jpg"
 
 # Load the background image
 sidebar_bg_image = Image.open(requests.get(sidebar_bg_image_url, stream=True).raw)
