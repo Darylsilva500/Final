@@ -86,7 +86,7 @@ elif selected_page == "All About Huawei":
                The history of Huawei 1987-2022 is the subject of today's video. So, the time has come for a new journey in the history of one of the most appreciated companies in the world, Huawei. Huawei's story began 35 years ago, when Ren Zhengfei, Huawei, started as a rural agent for selling telephone and cable services. Huawei is now a telecommunications and electronics giant and competes with big companies such as Apple, Samsung and Xiaomi. 
                 """
             )
-            st.markdown("[History OF Huawei](https://www.youtube.com/watch?v=fgbwdTcN-E8&t=49s)")
+            st.link_button("History OF Huawei", "https://www.youtube.com/watch?v=fgbwdTcN-E8&t=49s")
 
         image_column, text_column = st.columns((1, 2))
         with image_column:
@@ -98,7 +98,7 @@ elif selected_page == "All About Huawei":
                Huawei's innovative smartphones redefine the boundaries of technology, seamlessly blending cutting-edge design with unmatched performance. With state-of-the-art camera systems, Huawei devices capture moments with breathtaking clarity and detail, empowering users to unleash their creativity. The sleek and sophisticated aesthetics of Huawei products reflect a commitment to elegance and functionality, making each device a statement of style. Boasting powerful processors and long-lasting battery life, Huawei smartphones ensure a seamless and efficient user experience, whether for work or play. In a rapidly evolving tech landscape, Huawei stands as a beacon of ingenuity, consistently delivering products that elevate the user experience to unprecedented heights.
                 """
             )
-            st.markdown("[For more info about Huawei Products](https://consumer.huawei.com/ph/)")
+            st.link_button("For more info about Huawei Products", "https://consumer.huawei.com/ph/")
 
 # ---- GET IN TOUCH ----
 elif selected_page == "Get In Touch":
