@@ -32,7 +32,7 @@ profile_user = Image.open("images/user.png")
 # ---- HEADER SECTION ----
 with st.container():
     image_log = "images/log.png"  
-    st.image(image_log, width=50, height=50)
+    st.image(image_log,width=50, height=50)
     st.subheader("Hi, I'm :red[Daryl D. Silva] :satellite_antenna:", divider="rainbow") 
     st.title("Huawei: Connecting the World through Innovation")
     st.write(
