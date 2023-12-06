@@ -10,13 +10,21 @@ st.set_page_config(page_title="My website", page_icon=":tada:", layout="wide")
 profile_picture_url = "images/user.png"
 
 # Load the profile picture
-profile_picture = Image.open(requests.get(profile_picture_url, stream=True).raw)
+try:
+    profile_picture = Image.open(requests.get(profile_picture_url, stream=True).raw)
+except Exception as e:
+    st.error(f"Error loading profile picture: {e}")
+    profile_picture = None
 
 # Sidebar background image
 sidebar_bg_image_url = "images/background1.jpg"
 
 # Load the background image
-sidebar_bg_image = Image.open(requests.get(sidebar_bg_image_url, stream=True).raw)
+try:
+    sidebar_bg_image = Image.open(requests.get(sidebar_bg_image_url, stream=True).raw)
+except Exception as e:
+    st.error(f"Error loading background image: {e}")
+    sidebar_bg_image = None
 
 # Set sidebar width and background image
 st.markdown(
