@@ -6,47 +6,6 @@ from streamlit_lottie import st_lottie
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
 st.set_page_config(page_title="My website", page_icon=":tada:", layout="wide")
 
-# Define your profile picture URL
-profile_picture_url = "images/user.png"
-
-# Load the profile picture
-try:
-    profile_picture = Image.open(requests.get(profile_picture_url, stream=True).raw)
-except Exception as e:
-    st.error(f"Error loading profile picture: {e}")
-    profile_picture = None
-
-# Sidebar background image
-sidebar_bg_image_url = "images/background1.jpg"
-
-# Load the background image
-try:
-    sidebar_bg_image = Image.open(requests.get(sidebar_bg_image_url, stream=True).raw)
-except Exception as e:
-    st.error(f"Error loading background image: {e}")
-    sidebar_bg_image = None
-
-# Set sidebar width and background image
-st.markdown(
-    f"""
-    <style>
-        .sidebar .sidebar-content {{
-            width: 300px;
-            background-image: url("{sidebar_bg_image_url}");
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            padding-top: 20px;
-        }}
-        .sidebar .sidebar-content .stImage {{
-            border-radius: 50%;
-            margin-bottom: 10px;
-        }}
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
 # Sidebar menu
 menu_options = ["Home", "What Huawei Offers", "All About Huawei", "Get In Touch"]
 selected_menu = st.sidebar.selectbox("Home", menu_options)
