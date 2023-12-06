@@ -7,7 +7,7 @@ from streamlit_lottie import st_lottie
 st.set_page_config(page_title="My website", page_icon=":tada:", layout="wide")
 
 # Define your profile picture URL
-profile_picture_url = "images/user.png"
+profile_picture_url = "https://github.com/Darylsilva500/Final/blob/main/images/user.png"
 
 # Load the profile picture
 profile_picture = Image.open(requests.get(profile_picture_url, stream=True).raw)
