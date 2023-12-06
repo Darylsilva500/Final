@@ -1,124 +1,40 @@
 /* style.css */
 
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #00172B;
-    color: #FFFFFF;
-    margin: 0;
-}
-
-.st-lottie-player {
-    background-color: transparent !important; /* Make the Lottie animation background transparent */
-}
-
-/* Header styles */
-div.stApp {
-    background-color: #00172B;
-    color: white;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    color: #FFFFFF;
-}
-
-div.stButton button {
-    background-color: #00172B;
-    color: white;
-    padding: 10px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 4px;
-}
-
-/* Sidebar styles */
-div.stSidebar {
-    background-color: #0083B8;
-    color: white;
-    padding: 20px;
-}
-
-div.stSidebar img {
-    border-radius: 50%;
-    margin-bottom: 10px;
-}
-
-/* Main content styles */
-div.stContent {
-    margin-left: 300px; /* Adjust the margin to leave space for the expanded sidebar */
-    padding: 20px;
-}
-
-div.stContent img {
-    max-width: 100%;
-    height: auto;
-}
-
-/* Footer styles */
-div.stFooter {
-    background-color: #0083B8;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-
-/* Sidebar menu styles */
-div.stSidebar div[data-baseweb="menu"] {
-    background-color: #0083B8;
-}
-
-div.stSidebar div[data-baseweb="menu"] a {
-    color: white;
-    border-bottom: 1px solid #0083B8;
-}
-
-div.stSidebar div[data-baseweb="menu"] a:hover {
-    background-color: #0083B8;
-}
-
 /* CSS Snippet from W3schools: https://www.w3schools.com/howto/howto_css_contact_form.asp */
 /* Style inputs with type="text", select elements and textareas */
-input[type=message],
-input[type=email],
-input[type=text],
-textarea {
+input[type=message], input[type=email], input[type=text], textarea {
     width: 100%; /* Full width */
-    padding: 12px; /* Some padding */
+    padding: 12px; /* Some padding */ 
     border: 1px solid #ccc; /* Gray border */
     border-radius: 4px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-
-/* Style the submit button with a specific background color etc */
-button[type=submit] {
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  button[type=submit] {
     background-color: #04AA6D;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-}
-
-/* When moving the mouse over the submit button, add a darker green color */
-button[type=submit]:hover {
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  button[type=submit]:hover {
     background-color: #45a049;
-}
-
-/* Hide Streamlit Branding */
-#MainMenu {
-    visibility: hidden;
-}
-
-footer {
-    visibility: hidden;
-}
-
-header {
-    visibility: hidden;
-}
+  }
+  
+  /* Hide Streamlit Branding */
+  #MainMenu {visibility: hidden;}
+  footer {visibility: hidden;}
+  header {visibility: hidden;}
+  
+  /* [theme] */
+  /* Primary accent for interactive elements */
+  :root {
+    --primaryColor: #94ffb0;
+  }
