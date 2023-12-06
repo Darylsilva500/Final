@@ -34,7 +34,6 @@ with st.container():
     image_log = "images/log.png"  
     st.image(image_log, width=300)
     st.subheader("Hi, I'm :red[Daryl D. Silva] :satellite_antenna:", divider="rainbow")
-    st.subheader('Hi, I am Daryl D. Silva :wave:', divider='rainbow')
     st.title("Huawei: Connecting the World through Innovation")
     st.write(
         "Welcome to Huawei, a global leader in technology and innovation, connecting people and societies across the world. With a commitment to building a fully connected, intelligent world, Huawei is at the forefront of transforming industries, empowering individuals, and driving positive change."
