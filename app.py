@@ -36,7 +36,7 @@ with st.container():
     st.write(
         "Welcome to Huawei, a global leader in technology and innovation, connecting people and societies across the world. With a commitment to building a fully connected, intelligent world, Huawei is at the forefront of transforming industries, empowering individuals, and driving positive change."
     )
-    st.write("[Learn More About My Project >](https://github.com/Darylsilva500/Final/tree/main)")
+    st.link_button("Learn More About My Project", "https://github.com/Darylsilva500/Final/tree/main")
     st.image(img_background)
      
 # ---- SIDEBAR MENU ----
