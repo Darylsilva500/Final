@@ -12,7 +12,6 @@ def load_lottieurl(url):
         return None
     return r.json()
 
-# Use local CSS
 def local_css(file_path):
     try:
         with open(file_path, "r") as f:
@@ -28,7 +27,12 @@ css_file_path = "style/style.css"
 css_content = local_css(css_file_path)
 
 # Apply the CSS styles
-st.markdown(f"<style>{css_content}</style>", unsafe_allow_html=True)
+st.markdown(f"""
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        {css_content}
+    </style>
+""", unsafe_allow_html=True)
 
 # ---- LOAD ASSETS ----
 lottie_coding = load_lottieurl("https://lottie.host/36853ef1-8d93-4513-9431-7da39c5dfb67/8plGXL88xC.json")
