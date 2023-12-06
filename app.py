@@ -1,3 +1,4 @@
+import base64
 from PIL import Image
 import requests
 import streamlit as st
@@ -5,6 +6,33 @@ from streamlit_lottie import st_lottie
 
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
 st.set_page_config(page_title="My website", page_icon=":tada:", layout="wide")
+
+page_bg_img = f"""
+<style>
+[data-testid="stAppViewContainer"] > .main {{
+background-image: url("https://images.unsplash.com/photo-1501426026826-31c667bdf23d");
+background-size: 180%;
+background-position: top left;
+background-repeat: no-repeat;
+background-attachment: local;
+}}
+
+[data-testid="stSidebar"] > div:first-child {{
+background-image: url("data:image/png;base64,{img}");
+background-position: center; 
+background-repeat: no-repeat;
+background-attachment: fixed;
+}}
+
+[data-testid="stHeader"] {{
+background: rgba(0,0,0,0);
+}}
+
+[data-testid="stToolbar"] {{
+right: 2rem;
+}}
+</style>
+"""
 
 def load_lottieurl(url):
     r = requests.get(url)
