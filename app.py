@@ -44,7 +44,7 @@ with st.sidebar:
      st.markdown(
         """
         <div style='display: flex; justify-content: center; align-items: center; flex-direction: column;'>
-            <img src='data:image/png;base64,{}' style='border-radius: 15px; width: 150px; height: 150px;' alt='profile user'/>
+            <img src='data:image/png;base64,{}' style='border-radius: 15px; width: 150px; height: 150px;' alt='profile pic'/>
         </div>
         """.format(profile_user),
         unsafe_allow_html=True
