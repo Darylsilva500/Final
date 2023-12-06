@@ -82,18 +82,16 @@ elif selected_menu == "What Huawei Offers":
         """
     )
 
-    # Create a Streamlit column layout
+      # Create a Streamlit column layout
     col1, col2 = st.columns([2, 1])
 
     # Use the first column for content (text)
     with col1:
-        st_lottie(lottie_coding, height=800, key="coding")
+        st.write("Your main content goes here.")
 
     # Use the second column for the Lottie animation on the right side
     with col2:
-        # Add any additional content or leave it empty
-        pass
-
+        st_lottie(lottie_coding, height=800, key="coding")
 # ---- ALL ABOUT HUAWEI ----
 elif selected_menu == "All About Huawei":
     st.write("---")
