@@ -42,11 +42,11 @@ with st.beta_container():
         st.subheader("Hi, I'm :red[Daryl D. Silva] :satellite_antenna:", unsafe_allow_html=True)
         st.title("Huawei: Connecting the World through Innovation")
 
-    st.write(
+        st.write(
         "Welcome to Huawei, a global leader in technology and innovation, connecting people and societies across the world. With a commitment to building a fully connected, intelligent world, Huawei is at the forefront of transforming industries, empowering individuals, and driving positive change."
-    )
-    st.link_button("Learn More About My Project", "https://github.com/Darylsilva500/Final/tree/main")
-    st.image(img_background)
+        )
+        st.link_button("Learn More About My Project", "https://github.com/Darylsilva500/Final/tree/main")
+        st.image(img_background)
      
 # ---- SIDEBAR MENU ----
 with st.sidebar:
