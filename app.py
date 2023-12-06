@@ -41,7 +41,7 @@ with st.container():
      
 # ---- SIDEBAR MENU ----
 with st.sidebar:
-    st.image(profile_user, use_column_width=True, output_format="JPEG", channels="RGB", format="JPEG")
+    st.image(profile_user, use_column_width=True, output_format="PNG", channels="RGB", format="PNG")
     st.markdown(
         """
         <style>
