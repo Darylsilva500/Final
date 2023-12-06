@@ -76,8 +76,6 @@ elif selected_menu == "All About Huawei":
     st.write("##")
     image_column, text_column = st.columns((1, 2))
     
-    ... (rest of your code)
-    st.markdown("[For more info about Huawei Products](https://consumer.huawei.com/ph/)")
 
 # ---- GET IN TOUCH ----
 elif selected_menu == "Get In Touch":
