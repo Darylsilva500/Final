@@ -28,7 +28,7 @@ button[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 button[type=submit]:hover {
-  background-color: #fe3059;
+  background-color: #c9062d;
 }
 
 /* Hide Streamlit Branding */
