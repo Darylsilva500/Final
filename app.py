@@ -27,6 +27,7 @@ lottie_Man = load_lottieurl("https://lottie.host/f0d22d59-0e35-4bcb-ad52-3ddb2e9
 img_verse = Image.open("images/verse.png")
 img_intro = Image.open("images/intro.png")
 img_background = Image.open("images/background.png")
+profile_user = Image.open("images/user.png")
 
 # ---- HEADER SECTION ----
 with st.container():
@@ -40,6 +41,7 @@ with st.container():
      
 # ---- SIDEBAR MENU ----
 with st.sidebar:
+    st.image(profile_user, use_column_width=True)
     st.subheader("Home")
     selected_page = st.radio("Go to", ["Home", "What Huawei Offers", "All About Huawei", "Get In Touch"])
 
