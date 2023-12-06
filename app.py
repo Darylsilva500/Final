@@ -26,6 +26,7 @@ lottie_coding = load_lottieurl("https://lottie.host/36853ef1-8d93-4513-9431-7da3
 lottie_Man = load_lottieurl("https://lottie.host/f0d22d59-0e35-4bcb-ad52-3ddb2e9550d9/RywyFDumVc.json")
 img_verse = Image.open("images/verse.png")
 img_intro = Image.open("images/intro.png")
+img_background = Image.open("images/background.png")
 
 # ---- HEADER SECTION ----
 with st.container():
@@ -35,6 +36,7 @@ with st.container():
         "Welcome to Huawei, a global leader in technology and innovation, connecting people and societies across the world. With a commitment to building a fully connected, intelligent world, Huawei is at the forefront of transforming industries, empowering individuals, and driving positive change."
     )
     st.write("[Learn More About My Project >](https://github.com/Darylsilva500/Final/tree/main)")
+    st.image(img_background)
      
 # ---- SIDEBAR MENU ----
 with st.sidebar:
