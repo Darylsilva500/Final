@@ -93,7 +93,7 @@ elif selected_page == "All About Huawei":
         with image_column:
             st.image(img_intro)
         with text_column:
-            st.subheader("Product Of Huawei")
+            st.subheader("Products Of Huawei")
             st.write(
                 """
                Huawei's innovative smartphones redefine the boundaries of technology, seamlessly blending cutting-edge design with unmatched performance. With state-of-the-art camera systems, Huawei devices capture moments with breathtaking clarity and detail, empowering users to unleash their creativity. The sleek and sophisticated aesthetics of Huawei products reflect a commitment to elegance and functionality, making each device a statement of style. Boasting powerful processors and long-lasting battery life, Huawei smartphones ensure a seamless and efficient user experience, whether for work or play. In a rapidly evolving tech landscape, Huawei stands as a beacon of ingenuity, consistently delivering products that elevate the user experience to unprecedented heights.
