@@ -54,10 +54,10 @@ if selected_menu == "Home":
 
 # ---- WHAT HUAWEI OFFERS ----
 elif selected_menu == "What Huawei Offers":
-     st.write("---")
-      st.header("What Huawei Can Offer?", divider='rainbow')
-      st.write("##")
-        st.write(
+    st.write("---")
+    st.header("What Huawei Can Offer?", divider='rainbow')
+    st.write("##")
+    st.write(
         """
         - Smartphones: Huawei is well-known for its smartphones, including the Huawei P and Mate series, which often feature advanced camera systems and high-performance hardware.
 
@@ -81,39 +81,17 @@ elif selected_menu == "What Huawei Offers":
 
         """
     )
-     # Create a Streamlit column layout
+
+    # Create a Streamlit column layout
     col1, col2 = st.columns([2, 1])
 
     # Use the first column for content (text)
     with col1:
-     st.write(
-        """
-        - Smartphones: Huawei is well-known for its smartphones, including the Huawei P and Mate series, which often feature advanced camera systems and high-performance hardware.
-
-        - Tablets: Huawei produces tablets like the Huawei MatePad series, offering a range of options for different user needs.
-
-        - Laptops: Huawei has a line of laptops, such as the Huawei MateBook series, which combines sleek design with powerful hardware.
-
-        - Wearables: Huawei offers smartwatches and fitness trackers under its Huawei Watch and Huawei Band series.
-
-        - Networking Equipment: Huawei is a major player in the telecommunications industry, providing networking solutions, including routers and switches.
-
-        - 5G Infrastructure: Huawei is a significant contributor to the development and implementation of 5G technology globally.
-
-        - Audio Products: Huawei produces audio devices like headphones, earphones, and speakers under the Huawei FreeBuds and Sound X series.
-
-        - Smart Home Devices: Huawei offers smart home products, including smart speakers, cameras, and other connected devices.
-
-        - Cloud Services: Huawei provides cloud computing services, including storage, computing power, and AI services, through its Huawei Cloud platform.
-
-        - Software Solutions: In addition to hardware, Huawei develops software solutions, including its EMUI (Emotion UI) for smartphones and other software applications.
-
-        """
-    )
+        st_lottie(lottie_coding, height=800, key="coding")
 
     # Use the second column for the Lottie animation on the right side
     with col2:
-          st_lottie(lottie_coding, height=800, key="coding")
+        # Add any additional content or leave it empty
         pass
 
 # ---- ALL ABOUT HUAWEI ----
