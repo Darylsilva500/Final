@@ -32,6 +32,7 @@ profile_user = Image.open("images/user.png")
 # ---- HEADER SECTION ----
 with st.container():
 image_log = "images/log.png"
+
 col1, col2 = st.beta_columns([1, 3])
 
 with col1:
