@@ -62,3 +62,17 @@ footer {
 header {
   visibility: hidden;
 }
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  input[type=message],
+  input[type=email],
+  input[type=text],
+  textarea {
+    width: 100%;
+  }
+
+  button[type=submit] {
+    width: 100%;
+  }
+}
