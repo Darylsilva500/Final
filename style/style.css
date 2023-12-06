@@ -1,23 +1,4 @@
 /* style.css */
-[theme]
-{
-  # Primary accent for interactive elements
-  primaryColor: '#E694FF';
-
-  # Background color for the main content area
-  backgroundColor: '#00172B';
-
-  # Background color for sidebar and most interactive widgets
-  secondaryBackgroundColor: '#0083B8';
-
-  # Color used for almost all text
-  textColor: '#FFFFFF';
-
-  # Font family for all text in the app, except code blocks
-  # Accepted values (serif | sans serif | monospace)
-  # Default: "sans serif"
-  font: "sans serif";
-}
 
 /* CSS Snippet from W3schools: https://www.w3schools.com/howto/howto_css_contact_form.asp */
 /* Style inputs with type="text", select elements and textareas */
@@ -63,16 +44,4 @@ header {
   visibility: hidden;
 }
 
-/* Responsive Styles */
-@media screen and (max-width: 768px) {
-  input[type=message],
-  input[type=email],
-  input[type=text],
-  textarea {
-    width: 100%;
-  }
 
-  button[type=submit] {
-    width: 100%;
-  }
-}
