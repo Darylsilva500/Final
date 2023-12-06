@@ -54,16 +54,15 @@ if selected_menu == "Home":
 
 # ---- WHAT HUAWEI OFFERS ----
 elif selected_menu == "What Huawei Offers":
-    st.write("---")
-    st.header("What Huawei Can Offer?", divider='rainbow')
-    st.write("##")
-   
      # Create a Streamlit column layout
     col1, col2 = st.columns([2, 1])
 
     # Use the first column for content (text)
     with col1:
-       st.write(
+      st.write("---")
+      st.header("What Huawei Can Offer?", divider='rainbow')
+      st.write("##")
+        st.write(
         """
         - Smartphones: Huawei is well-known for its smartphones, including the Huawei P and Mate series, which often feature advanced camera systems and high-performance hardware.
 
