@@ -33,7 +33,7 @@ profile_user = Image.open("images/user.png")
 with st.container():
     image_log = "images/log.png"  
     st.image(image_log, width=300)
-    st.subheader("Hi, I'm :red[Daryl D. Silva] :satellite_antenna:", divider="rainbow")
+    st.subheader("𝙷𝚒, 𝙸'𝚖  :red[𝙳𝚊𝚛𝚢𝚕 𝙳. 𝚂𝚒𝚕𝚟𝚊] :satellite_antenna:", divider="rainbow")𝙷𝚒, 𝙸'𝚖 
     st.title("Huawei: Connecting the World through Innovation")
     st.write(
         "Welcome to Huawei, a global leader in technology and innovation, connecting people and societies across the world. With a commitment to building a fully connected, intelligent world, Huawei is at the forefront of transforming industries, empowering individuals, and driving positive change."
